@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,7 @@
 
 h1{
     font-family: 'Tiro Bangla', serif;
+    font-weight: bolder;
     font-size: 35px;
     color: #FF1493;
     text-align: center;  
@@ -18,15 +19,26 @@ h1{
     margin-bottom: 40px;
 }
 
-.description{
-    font-size: 20px;
+p{
+    font-family: 'Tiro Bangla', serif; 
+    font-size: 18px;
     text-align: center;
 }
 
-.photo{
+.card-container{
+    margin-top: 30px;
+}
+.card{
     float: left;
-    height: 100px;
+    width: 30%;
+    background-color: #0E0E17;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace; 
+    margin-right: 20px;
+}
 
+.card img{
+    height: 100px;
 }
 
 .clearfix::after{
@@ -35,24 +47,18 @@ h1{
     clear: both;
 }
 
-.card-container{
-    margin-top: 50px;
+.info{
+    padding-left: 120px;
+    padding-top: 15px;
 }
 
-.card-content{
-    color: #fff;
-    background-color: #0F0E17;
-    height: 100px;
-    width: calc(100% / 3);
-    float: left;  
+.card img{
+    float: left;
 }
 
-.mail{
-    color: #0f89ec;
+h4{
+    color: #0be0fc;
 }
 
-.name, .profession, .mail{
-    padding: 5px 10px;
-    max-width: 220px;
-}
+
 
