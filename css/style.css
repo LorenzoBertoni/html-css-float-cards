@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Tiro Bangla', serif;
+    font-size: 35px;
+    color: #FF1493;
+    text-align: center;  
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+
+.photo{
+    float: left;
+    height: 100px;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-container{
+    margin-top: 50px;
+}
+
+.card-content{
+    color: #fff;
+    background-color: #0F0E17;
+    height: 100px;
+    width: calc(100% / 3);
+    float: left;  
+}
+
+.mail{
+    color: #0f89ec;
+}
+
+.name, .profession, .mail{
+    padding: 5px 10px;
+    max-width: 220px;
+}
+
